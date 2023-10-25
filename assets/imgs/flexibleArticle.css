@@ -1,0 +1,26 @@
+.article-area {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  background-color: #fbf7e3;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #612406;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+}
+
+.article-area img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1200) {
+  .article-area {
+    flex-wrap: wrap-reverse;
+  }
+}
